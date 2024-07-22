@@ -1,0 +1,9 @@
+= Java Kafka Message Listener
+:toc:
+:sectnums:
+
+== Synopsis
+Reads a message stream, using Spring Cloud Stream
+
+The input message is a SimpleMessage, containing an Id and an Address.
+The output message is an Address, to demonstrate a conversion happened.
